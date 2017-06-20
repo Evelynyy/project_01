@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body,h1,h2,h3,ul,figure{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: outside none none;
+}
+a{
+	text-decoration: none;
+}
+.none{
+	display: none;
+}
+/*头部*/
+#header{
+	width: 90%;
+	min-width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #333;
+	box-shadow: 0 1px 10px rgb(0,0,0,0.3);
+	position: relative;
+	z-index: 9999;
+}
+#header .center{
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+}
+#header .logo{
+	width: 230px;
+	height: 70px;
+	background-image: url(../img/Logo.png);
+	text-indent: -9999px;
+	float: left;
+}
+/*导航*/
+#header .link{
+	float: right;
+	width: 640px;
+	height: 70px;
+	line-height: 70px;
+	color: #eee;
+}
+#header .link li{
+	float: left;
+	width: 120px;
+	text-align: center;
+}
+#header .link a{
+	display: block;
+	color: #eee;
+}
+#header .link a:hover,
+#header .active a{
+	background-color: #000;
+}
+/*底部*/
+#footer{
+	width: 90%;
+	min-width: 1024px;
+	margin: 0 auto;
+	height: 320px;
+	background-color: #222;	
+	clear: both;
+	position: relative;
+	top: 20px;
+}
+/*底部友情链接部分*/
+#footer .top{
+	width: 1024px;
+	height: 260px;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer .block{
+	width: 335px;
+	height: 260px;
+	display: inline-block;
+	text-align: left;
+	color: #ccc;
+	vertical-align: top;
+}
+#footer h2{
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+}
+#footer hr{
+	width: 88%;
+	border:1px dashed #333;
+}
+#footer ul{
+	font-size: 16px;
+	color: #777;
+	text-indent:25px;
+	line-height: 2;
+}
+/*底部版权*/
+#footer .bottom{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #777;
+	background-color: #000;
+	border-top: 1pz solid #444;
+}

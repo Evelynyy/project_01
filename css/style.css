@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*搜索框*/
+#search{
+	width: 90%;
+	min-width: 1024px;
+	height: 600px;
+	margin: 0 auto;
+	background: url(../img/search.jpg) no-repeat center;
+	position: relative;
+}
+#search .center{
+	width: 580px;
+	height: 50px;
+	background-color: #000;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin: -25px 0 0 -290px;
+	opacity: 0.6;
+	border-radius: 10px;
+}
+#search .search{
+	width: 426px;
+	height: 42px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin: -22px 0 0 -286px;
+	color: #666;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 22px;
+	padding: 0 10px;
+	outline: none;
+}
+#search .button{
+	width: 110px;
+	height: 44px;
+	background-color: #eee;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin: -22px 0 0 170px;
+	color: #666;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 22px;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+/*中间旅游景点区域*/
+#tour{
+	width:1024px;
+	height: 1250px;
+	margin: 30px auto 15px auto;
+	background-color: #eee;
+	text-align: center;
+}
+#tour .center h2{
+	font-size: 45px;
+	letter-spacing: 2px;
+	color: #666;
+	margin: 10px 0;
+}
+#tour .center p{
+	color: #666;
+	margin: 10px 0;
+}
+#tour figure{
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 12px;
+	width: 300px;
+	text-align: left;
+	position: relative;
+}
+#tour figure img{
+	vertical-align: middle;
+}
+#tour figure figcaption{	
+	color: :#777;
+	font-size:14px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	padding: 7px 0 5px 0;
+}
+#tour .title{
+	color: #333;
+	font-weight: normal;
+}
+#tour .sat{
+	float: right;
+	font-size:13px;
+	color: #999;
+	font-weight: normal;
+	position: relative;
+	top: 5px;
+	right: 5px;
+}
+#tour .price{
+	font-size:14px;
+	color: #f60;
+}
+#tour .price strong{
+	font-size:20px;
+	letter-spacing: 1px;
+}
+#tour .type{
+	background-color: #59B260;
+	width:90px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+}
